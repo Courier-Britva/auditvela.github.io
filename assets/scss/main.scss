@@ -1,0 +1,418 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.container{
+    max-width: 1250px;
+    padding: 10px 15px;
+    margin-left: auto;
+    margin-right: auto;
+}
+html{
+    overflow-x: hidden;
+}
+
+.link-unstyle{
+    color: black;
+    text-decoration: none;
+}
+
+.justify-center{
+    display: flex;
+    justify-content: center;
+}
+
+.list-unstyle{
+    list-style: none;
+    padding: unset;
+    margin: unset;
+}
+
+.display-flex{
+    display: flex;
+}
+
+.header{
+    position: sticky;
+    top: 0;
+    height: auto;
+    background-color: #FFFFFF;
+}
+.header-content{
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 10000;
+}
+
+.header-content__contacts__social-media-element{
+    margin-right: 10px;
+}
+
+.header-content__menu-container{
+    max-width: 500px;
+    width: 100%;
+}
+
+.header-content__menu{
+    justify-content: space-around;
+}
+
+.header-content__menu__element-link{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+}
+
+.header-content__logo{
+    margin-right: 100px;
+}
+
+.header-content__contacts__mobile{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.header-content__contacts__mobile-element{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+}
+
+.tax-form{
+    background-image: url(/assets/img/back1.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.tax-form-content{
+    padding-top: 50px;
+    display: flex;
+    flex-direction: column;
+    max-width: 60%;
+}
+
+.tax-form-content__head{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 37px;
+    color: #FFFFFF;
+    margin-bottom: 20px;
+}
+
+.tax-form-content__discr{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    color: #89B8FF;
+    margin-bottom: 15px;
+}
+
+.tax-form-content__ditails-head{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 28px;
+    color: #FFFFFF;
+}
+
+.tax-form-content__ditails{
+    font-style: normal;
+    font-weight: 200;
+    font-size: 18px;
+    line-height: 22px;
+    color: #FFFFFF;
+    max-width: 400px;
+    margin-bottom: 40px;
+}
+
+.tax-form-content__action-form{
+    display: flex;
+    flex-direction: column;
+    max-width: 580px;
+}
+
+.tax-form-content__action-form__element{
+    width: 100%;
+    background: rgba(255, 255, 255, 0.4);
+    border: unset;
+    height: 60px;
+    padding: 10px 20px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    margin-bottom: 20px;
+}
+.tax-form-content__action-form__element:focus{
+    outline: none;
+}
+.tax-form-content__action-form__element::-webkit-input-placeholder{
+    color:#FFFFFF;
+}
+.tax-form-content__action-form__element:-moz-placeholder{
+    color:#FFFFFF;
+}
+.tax-form-content__action-form__element::-moz-placeholder{
+    color:#FFFFFF;
+}
+.tax-form-content__action-form__element:-ms-input-placeholder{
+    color:#FFFFFF;
+}
+
+.tax-form-content__action-form__submit{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #0052B3;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    color: #FFFFFF;
+    height: 60px;
+    border: none;
+    &:hover{
+        cursor: pointer;
+    }
+}
+
+.tax-form-details{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(340px, 1fr));
+    gap: 20px;
+}
+
+.tax-form-details__element{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 120px;
+    width: 340px;
+    background: rgba(255, 255, 255, 0.1);
+}
+
+.tax-form-details__text-element{
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.bafs{
+    background-image: url(/assets/img/back2.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.bafs-content{
+    padding-top: 50px;
+}
+.bafs-content__head{
+    padding-bottom: 20px;
+}
+
+.bafs-content__head-text{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 37px;
+}
+
+.bafs-content__grid{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(375px, 1fr));
+    gap: 20px;
+}
+
+.bafs-content__grid-element{
+    background: rgba(255, 255, 255, 0.2);
+    width: 390px;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+}
+.service{
+    background-image: url(/assets/img/back3.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.service-content{
+    padding: 40px 0;
+}
+.service-content__top__grid{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: 20px;
+}
+.service-content__top__grid__element{
+    margin-left: auto;
+    margin-right: auto;
+    width: 300px;
+    height: 270px;
+    padding: 10px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    padding-top: 20px;
+    border: 1px solid #5D2A8D;
+    border-radius: 17px;
+}
+
+.service-content__top__head{
+    margin-bottom: 20px;
+}
+
+.service-content__top__head-text{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 37px;
+    color: #FFFFFF;
+}
+
+.service-content__top__head-text__blue{
+    color:#0052B2;
+    font-weight: 600;
+}
+
+.service-content__top__grid__element-text{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 25px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.service-content__bottom__scope{
+    width: 100%;
+    padding: 0 25px;
+    margin-top: 20px;
+}
+
+.service-content__bottom__result-element{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 60px;
+    text-align: center;
+    background: #0E1730;
+    backdrop-filter: blur(10px);
+    padding-bottom: 40px;
+    position: relative;
+}
+
+.service-content__bottom__result__top-text{
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    color: #9C57DE;
+    margin-bottom: 30px;
+}
+
+.service-content__bottom__result__bottom-text{
+    max-width: 280px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.service-content__bottom__result-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(380px, 1fr));
+    gap: 40px;
+    margin-top: 50px;
+}
+
+.service-content__bottom__result-element__first::before{
+    content: url(/assets/img/result1.png);
+}
+
+.service-content__bottom__result-element__second::before{
+    content: url(/assets/img/result2.png);
+}
+
+.service-content__bottom__result-element__third::before{
+    content: url(/assets/img/result3.png);
+}
+
+.service-content__bottom__result-element::before{
+    position: absolute;
+    left: 40%;
+    top: -50px;
+    background: linear-gradient(147.26deg, #32426E 10.62%, #5D2A8D 96.65%);
+    border-radius: 50%;
+    width: 90px;
+    height: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.header-content__contacts__social-media-element__burger{
+    display: none;
+}
+@media (max-width:1100px) {
+    .header-content__contacts__mobile{
+        display: none;
+    }
+
+    .header-content__menu-container{
+        display: none;
+    }
+
+    .header-content__logo{
+        margin: unset;
+    }
+
+    .tax-form-details{
+        display: none;
+    }
+    
+    .header-content__contacts__social-media-element__burger{
+        display: flex;
+    }
+
+    .header-content__contacts__social-media-element-img{
+        width: 30px;
+        height: 30px;
+    }
+
+    .bafs-content__grid{
+        grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+    }
+    .bafs-content__grid-element{
+        width: 275px;
+    }
+}
+
+@media (max-width: 600px){
+    .bafs-content__grid-element{
+        width: 100%;
+    }
+    .tax-form-content{
+        max-width: unset;
+    }
+    .header-content__logo__content{
+        max-width: 100px;
+    }
+
+    .service-content__bottom__result-element{
+        width: 300px;
+    }
+
+    .service-content__bottom__result-element::before{
+        left:35%;
+    }
+}
