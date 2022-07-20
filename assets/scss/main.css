@@ -70,7 +70,7 @@ html {
   line-height: 22px; }
 
 .tax-form {
-  background-image: url(/../img/back1.png);
+  background-image: url(../img/back1.png);
   background-size: cover;
   background-repeat: no-repeat; }
 
@@ -178,7 +178,7 @@ html {
   color: #FFFFFF; }
 
 .bafs {
-  background-image: url(/../img/back2.png);
+  background-image: url(../img/back2.png);
   background-size: cover;
   background-repeat: no-repeat; }
 
@@ -210,7 +210,7 @@ html {
   padding: 20px; }
 
 .service {
-  background-image: url(/../img/back3.png);
+  background-image: url(../img/back3.png);
   background-size: cover;
   background-repeat: no-repeat; }
 
@@ -296,13 +296,13 @@ html {
   margin-top: 50px; }
 
 .service-content__bottom__result-element__first::before {
-  content: url(/../img/result1.png); }
+  content: url(../img/result1.png); }
 
 .service-content__bottom__result-element__second::before {
-  content: url(/../img/result2.png); }
+  content: url(../img/result2.png); }
 
 .service-content__bottom__result-element__third::before {
-  content: url(/../img/result3.png); }
+  content: url(../img/result3.png); }
 
 .service-content__bottom__result-element::before {
   position: absolute;
